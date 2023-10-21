@@ -1,0 +1,51 @@
+.goSection p{
+    font-weight: 700;
+    font-size: 32px;
+}
+.goSection-card-container{
+    margin-bottom: 70px;
+    margin-top: 31px;
+display: flex;
+gap: 30px;
+}
+.goSection-card-1{
+    width: 255px;
+    height: 230px;
+    overflow: hidden;
+}
+.goSection-card-bg{
+    width: 255px;
+    height: 100%; 
+    position: relative;
+}
+.goSection-img-1{
+    background: url('/image/newYork.png') center/cover no-repeat;
+}
+.goSection-img-2{
+    background: url('/image/africa.png') center/cover no-repeat;
+}
+.goSection-img-3{
+    background: url('/image/europe.png') center/cover no-repeat;
+}
+.goSection-img-4{
+    background: url('/image/asia.png') center/cover no-repeat;
+}
+.goSection-card-text{
+    position: absolute;
+    bottom: 12px;
+    left: 16px;
+    color: #fff;
+    
+}
+.goSection-card-text p{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.goSection-card-small-text p{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+}
