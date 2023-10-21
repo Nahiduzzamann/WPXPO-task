@@ -95,7 +95,50 @@
     width: 18px;
     margin-left: 8px;
 }
-
+.amazing-small-card{
+    display: flex;
+}
 .amazing-small-card-container{
     margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.amazing-small-card-img{
+    width: 255px;
+    height: 188px;
+    overflow: hidden;
+    position: relative;
+}
+.amazing-small-card-img img{
+    width: 255px;
+    height: 188px;
+    
+}
+.amazing-small-card-top {
+    position: absolute;
+    left: 24px;
+    top: 24px;
+    padding: 4px 8px 4px 8px;
+}
+.amazing-small-card-top-bg{
+    background-color: #FF2A0D;
+
+}
+.amazing-small-card-top p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffffff;
+}
+.amazing-small-card-right{
+    margin-left: 20px;
+}
+.amazing-small-card-right-text p{
+    font-weight: 700;
+    font-size: 20px;
+    color: #0A0A0A;
+    line-height: 28px;
 }
