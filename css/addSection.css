@@ -1,0 +1,33 @@
+.add-img {
+    position: relative;
+}
+
+.add-img-p1 {
+    position: absolute;
+top: 48px;
+left: 57px;
+font-weight: 400;
+font-size: 44px;
+color: #FFFFFF;
+}
+.add-img-p2 {
+    position: absolute;
+bottom: 48px;
+left: 57px;
+font-weight: 500;
+font-size: 44px;
+color: #FFFFFF;
+}
+.add-btn{
+    position: absolute; 
+    top: 78px;
+    right: 56px;
+    background: #047FFA;
+    padding: 14px 20px 14px 20px;
+}
+.add-btn p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+font-size: a6px;
+color: #FFFFFF;
+}
