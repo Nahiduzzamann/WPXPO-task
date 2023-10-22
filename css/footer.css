@@ -1,5 +1,6 @@
 .footer-bg {
     background-color: #0A0A0A;
+    background-color: red;
     margin-top: 80px;
     padding-top: 80px;
     padding-bottom: 48px;
@@ -161,4 +162,28 @@
     line-height: 22px;
     color: #FFFFFF;
 
+}
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 52px;
+}
+.subscribe-left-text1 p{
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.subscribe-left-text2 p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+.copy-right-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
 }
