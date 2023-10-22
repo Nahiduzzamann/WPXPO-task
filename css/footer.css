@@ -8,6 +8,7 @@
 .footer-container {
     display: flex;
     gap: 90px;
+    margin-bottom: 48px;
 }
 
 .footer-right {
@@ -61,4 +62,103 @@
     color: #FFFFFF;
     padding-top: 8px;
     padding-bottom: 8px;
+}
+.popular-post{
+    width: 276px;
+}
+.popular-post-card-container{
+    margin-top: 36px;
+}
+
+
+
+.popular-post-card {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.popular-post-card img {
+    height: 94px;
+    width: 94px;
+}
+
+.popular-post-card-small-text {
+    display: flex;
+    align-items: center;
+
+}
+
+.popular-post-card-small-text img {
+
+    margin-right: 8px;
+    height: 20px;
+    width: 20px;
+}
+
+.popular-post-card-small-text p {
+    font-family: 'Roboto', sans-serif;
+    color: #838383;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.popular-post-card-text p {
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 6px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+.footer-divider{
+    height: 1px;
+    background-color: #666666;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.most-read{
+    width: 191px;
+}
+.most-read-container{
+    margin-top: 37px;
+}
+
+
+.most-read-card {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+
+.most-read-card-small-text {
+    display: flex;
+    align-items: center;
+
+}
+
+.most-read-card-small-text img {
+
+    margin-right: 8px;
+    height: 20px;
+    width: 20px;
+}
+
+.most-read-card-small-text p {
+    font-family: 'Roboto', sans-serif;
+    color: #838383;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.most-read-card-text p {
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 6px;
+    line-height: 22px;
+    color: #FFFFFF;
+
 }
