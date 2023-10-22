@@ -17,7 +17,11 @@
     top: 24px;
     padding: 4px 8px 4px 8px;
 }
-
+.topDestination-card-top-bg1{background-color: #047FFA;}
+.topDestination-card-top-bg2{background-color: #CE0CFF;}
+.topDestination-card-top-bg3{background-color: #FF2A0D;}
+.topDestination-card-top-bg4{background-color: 
+    #0D99FF;}
 .topDestination-card-top p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;

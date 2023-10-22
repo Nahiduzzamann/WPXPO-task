@@ -96,3 +96,96 @@ margin-bottom: 31px;
     width: 18px;
     margin-left: 8px;
  }
+ .bottom-divider{
+    height: 1px;
+    background-color: #CCCCCC;
+    margin: 32px 0 32px 0;
+ }
+
+
+ 
+
+ .journey-left-small-card {
+    width: 350px;
+    height: 262px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.journey-left-small-card img {
+    width: 350px;
+    height: 262px;
+}
+
+.journey-left-small-card-top {
+    position: absolute;
+    left: 24px;
+    top: 24px;
+    padding: 4px 8px 4px 8px;
+}
+.journey-left-small-card-top-bg1{background-color: #047FFA;}
+.journey-left-small-card-top-bg2{background-color: #CE0CFF;}
+.journey-left-small-card-top-bg3{background-color: #FF2A0D;}
+.journey-left-small-card-top-bg4{background-color: 
+    #0D99FF;}
+.journey-left-small-card-top p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.journey-left-small-card-small-text {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.journey-left-small-card-small-text img {
+   
+    margin-right: 8px;
+    height: 20px;
+    width: 20px;
+}
+
+.journey-left-small-card-small-text p {
+    font-family: 'Roboto', sans-serif;
+    color: #838383;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.journey-left-small-card-text p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #0A0A0A;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    width: 350px;
+}
+.journey-left-small-card-text-bottom{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+.journey-left-small-card-text-bottom p{
+    font-family: 'Roboto', sans-serif;
+    color: #838383;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0;
+
+}
+.journey-left-small-card-text-bottom img{
+    height: 18px;
+    width: 18px;
+    margin-left: 8px;
+}
+.journey-container-left-small-cart{
+    display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 30px;
+}
