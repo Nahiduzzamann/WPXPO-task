@@ -1,13 +1,14 @@
-.journey-container{
+.journey-container {
     display: flex;
     gap: 50px;
     margin-top: 69px;
 }
-.journey-container-left p{
-font-weight: 700;
-font-size: 32px;
-color: #0A0A0A;
-margin-bottom: 31px;
+
+.journey-container-left p {
+    font-weight: 700;
+    font-size: 32px;
+    color: #0A0A0A;
+    margin-bottom: 31px;
 }
 
 
@@ -48,7 +49,7 @@ margin-bottom: 31px;
 }
 
 .journey-container-card-small-text img {
-  
+
     margin-right: 8px;
     height: 20px;
     width: 20px;
@@ -61,7 +62,8 @@ margin-bottom: 31px;
     font-size: 14px;
     margin-bottom: 0;
 }
-.journey-container-card-text p{
+
+.journey-container-card-text p {
     font-size: 38px;
     font-weight: 700;
     color: #0A0A0A;
@@ -69,44 +71,49 @@ margin-bottom: 31px;
     margin-bottom: 14px;
     width: 679px;
 }
+
 .journey-container-card-text-des {
     width: 700px;
-    
+
 }
 
-.journey-container-card-text-des p{
+.journey-container-card-text-des p {
     font-family: 'Roboto', sans-serif;
     color: #838383;
     font-weight: 400;
     font-size: 16px;
 }
-.journey-container-card-text-bottom{
+
+.journey-container-card-text-bottom {
     margin-top: 27px;
     display: flex;
     align-items: center;
 }
-.journey-container-card-text-bottom p{
+
+.journey-container-card-text-bottom p {
     font-family: 'Roboto', sans-serif;
     color: #838383;
     font-weight: 500;
     font-size: 16px;
     margin-bottom: 0;
 }
-.journey-container-card-text-bottom img{
+
+.journey-container-card-text-bottom img {
     height: 18px;
     width: 18px;
     margin-left: 8px;
- }
- .bottom-divider{
+}
+
+.bottom-divider {
     height: 1px;
     background-color: #CCCCCC;
     margin: 32px 0 32px 0;
- }
+}
 
 
- 
 
- .journey-left-small-card {
+
+.journey-left-small-card {
     width: 350px;
     height: 262px;
     overflow: hidden;
@@ -125,11 +132,24 @@ margin-bottom: 31px;
     top: 24px;
     padding: 4px 8px 4px 8px;
 }
-.journey-left-small-card-top-bg1{background-color: #047FFA;}
-.journey-left-small-card-top-bg2{background-color: #CE0CFF;}
-.journey-left-small-card-top-bg3{background-color: #FF2A0D;}
-.journey-left-small-card-top-bg4{background-color: 
-    #0D99FF;}
+
+.journey-left-small-card-top-bg1 {
+    background-color: #047FFA;
+}
+
+.journey-left-small-card-top-bg2 {
+    background-color: #CE0CFF;
+}
+
+.journey-left-small-card-top-bg3 {
+    background-color: #FF2A0D;
+}
+
+.journey-left-small-card-top-bg4 {
+    background-color:
+        #0D99FF;
+}
+
 .journey-left-small-card-top p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -146,7 +166,7 @@ margin-bottom: 31px;
 }
 
 .journey-left-small-card-small-text img {
-   
+
     margin-right: 8px;
     height: 20px;
     width: 20px;
@@ -159,7 +179,8 @@ margin-bottom: 31px;
     font-size: 14px;
     margin-bottom: 0;
 }
-.journey-left-small-card-text p{
+
+.journey-left-small-card-text p {
     font-size: 18px;
     font-weight: 700;
     color: #0A0A0A;
@@ -167,12 +188,14 @@ margin-bottom: 31px;
     margin-bottom: 16px;
     width: 350px;
 }
-.journey-left-small-card-text-bottom{
+
+.journey-left-small-card-text-bottom {
     margin-top: 16px;
     display: flex;
     align-items: center;
 }
-.journey-left-small-card-text-bottom p{
+
+.journey-left-small-card-text-bottom p {
     font-family: 'Roboto', sans-serif;
     color: #838383;
     font-weight: 500;
@@ -180,30 +203,38 @@ margin-bottom: 31px;
     margin-bottom: 0;
 
 }
-.journey-left-small-card-text-bottom img{
+
+.journey-left-small-card-text-bottom img {
     height: 18px;
     width: 18px;
     margin-left: 8px;
 }
-.journey-container-left-small-cart{
+
+.journey-container-left-small-cart {
     display: grid;
-  grid-template-columns: 1fr 1fr; 
-  grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
 }
-.journey-left-small-card-text-des{width: 350px;}
-.journey-left-small-card-text-des p{
+
+.journey-left-small-card-text-des {
+    width: 350px;
+}
+
+.journey-left-small-card-text-des p {
     font-family: 'Roboto', sans-serif;
     color: #838383;
     font-weight: 400;
     font-size: 16px;
 }
-.pagination{
+
+.pagination {
     display: flex;
-    gap:8px;
+    gap: 8px;
     margin-top: 56px;
     margin-bottom: 80px;
 }
-.pagination p{
+
+.pagination p {
     font-family: 'Roboto', sans-serif;
     color: #838383;
     font-weight: 400;
@@ -212,10 +243,11 @@ margin-bottom: 31px;
     padding: 6px 14px 6px 14px;
 }
 
-.journey-container-right{
+.journey-container-right {
     background-color: #F4F4F4;
     padding: 16px;
     margin-top: 11px;
+    height: min-content;
 }
 
 .journey-right-small-card {
@@ -254,7 +286,7 @@ margin-bottom: 31px;
 }
 
 .journey-right-small-card-small-text img {
-   
+
     margin-right: 8px;
     height: 20px;
     width: 20px;
@@ -266,27 +298,158 @@ margin-bottom: 31px;
     font-weight: 400;
     font-size: 14px;
 }
-.journey-right-small-card-text p{
-    font-size: 18px;
+
+.journey-right-small-card-text p {
+    font-size: 14px;
     font-weight: 700;
     color: #0A0A0A;
-    margin-top: 8px;
-    margin-bottom: 16px;
+    margin-top: 6px;
+    margin-bottom: 8px;
     width: 255px;
 }
-.journey-right-small-card-text-bottom{
+
+.journey-right-small-card-text-bottom {
     margin-top: 6px;
     display: flex;
     align-items: center;
 }
-.journey-right-small-card-text-bottom p{
+
+.journey-right-small-card-text-des {
+    width: 298px;
+}
+
+.journey-right-small-card-text-des p {
     font-family: 'Roboto', sans-serif;
     color: #838383;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.bottom-right-divider {
+    background-color: #666666;
+    height: 1px;
+    margin: 24px 0 24px 0;
+}
+
+.journey-right-bottom-small-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.journey-right-bottom-small-card {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.journey-right-bottom-small-card img {
+    height: 94px;
+    width: 94px;
+}
+
+.journey-right-bottom-small-card-small-text {
+    display: flex;
+    align-items: center;
+
+}
+
+.journey-right-bottom-small-card-small-text img {
+
+    margin-right: 8px;
+    height: 20px;
+    width: 20px;
+}
+
+.journey-right-bottom-small-card-small-text p {
+    font-family: 'Roboto', sans-serif;
+    color: #838383;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.journey-right-bottom-small-card-text p {
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 6px;
+    line-height: 22px;
+    color: #0A0A0A;
+
+}
+
+.journey-right-bottom-add {
+    margin-top: 40px;
+    position: relative;
+}
+
+.journey-right-bottom-add img {
+    height: 334px;
+    width: 298px;
+}
+
+.journey-right-bottom-add-textContainer {
+    position: absolute;
+    top: 10px;
+    left: 16px;
+}
+
+.journey-right-bottom-add-text1 p {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 46px;
+    color: #FFFFFF;
+
+}
+
+.journey-right-bottom-add-text2 p {
+    margin-top: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #D9D9D9;
+}
+
+.journey-right-bottom-add-btn {
+    border: 1px solid #FFFFFF;
+    width: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 24px;
+}
+
+.journey-right-bottom-add-btn p {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
+    color: #FFFFFF;
 }
-.journey-right-small-card-text-bottom img{
-    height: 18px;
-    width: 18px;
-    margin-left: 8px;
+
+.gallery {
+    margin-top: 40px;
+}
+
+.gallery p {
+    font-weight: 700;
+    font-size: 24px;
+    color: #0A0A0A;
+}
+
+.gallery-img {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.gallery-img-block{
+    height: 99px;
+    width: 99px;
+}
+.gallery-img-block img {
+    height: 100%;
+    width: 100%;
 }
