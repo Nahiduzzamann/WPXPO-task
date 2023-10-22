@@ -59,6 +59,7 @@ width: 24px;
 }
 .header-bottom-category{
     display: flex;
+    align-items: center;
 }
 .header-bottom-category p{
     padding-right: 4px;
