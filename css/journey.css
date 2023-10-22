@@ -73,6 +73,7 @@ margin-bottom: 31px;
     width: 700px;
     
 }
+
 .journey-container-card-text-des p{
     font-family: 'Roboto', sans-serif;
     color: #838383;
@@ -188,4 +189,31 @@ margin-bottom: 31px;
     display: grid;
   grid-template-columns: 1fr 1fr; 
   grid-gap: 30px;
+}
+.journey-left-small-card-text-des{width: 350px;}
+.journey-left-small-card-text-des p{
+    font-family: 'Roboto', sans-serif;
+    color: #838383;
+    font-weight: 400;
+    font-size: 16px;
+}
+.pagination{
+    display: flex;
+    gap:8px;
+    margin-top: 56px;
+    margin-bottom: 80px;
+}
+.pagination p{
+    font-family: 'Roboto', sans-serif;
+    color: #838383;
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid #838383;
+    padding: 6px 14px 6px 14px;
+}
+
+.journey-container-right{
+    background-color: #F4F4F4;
+    padding: 16px;
+    margin-top: 11px;
 }
